@@ -1,14 +1,14 @@
-# Kenzie Hub
+# Dev's Hub
 
-Este é o repositório do projeto Kenzie Hub, que abrange as funcionalidades de cadastro, login e gerenciamento de tecnologias. O objetivo do projeto é desenvolver um aplicativo web utilizando React, React Hook Form, Zod e requisições POST para interagir com a API Kenzie Hub.
+Este é o repositório do projeto Dev's Hub, que abrange as funcionalidades de cadastro, login e gerenciamento de tecnologias. O objetivo do projeto é desenvolver um aplicativo web utilizando React, React Hook Form, Zod e requisições POST para interagir com a API Dev's Hub.
 
 ## Sobre o Projeto
-O Kenzie Hub é uma plataforma desenvolvida como parte do programa de formação da Kenzie Academy Brasil. O projeto visa oferecer recursos para cadastro de usuários, autenticação de login e um painel de controle (dashboard) para visualizar informações do usuário. Além disso, também permite o gerenciamento de tecnologias, incluindo a listagem, criação, atualização e exclusão das mesmas.
+O Dev's Hub é uma plataforma desenvolvida como parte do programa de formação da Kenzie Academy Brasil. O projeto visa oferecer recursos para cadastro de usuários, autenticação de login e um painel de controle (dashboard) para visualizar informações do usuário. Além disso, também permite o gerenciamento de tecnologias, incluindo a listagem, criação, atualização e exclusão das mesmas.
 
 O aplicativo foi desenvolvido seguindo um guia de estilo específico, garantindo uma aparência consistente e agradável ao usuário.
 
 ## API
-A aplicação utiliza a API Kenzie Hub, que fornece os endpoints necessários para o funcionamento correto das funcionalidades de cadastro, login e gerenciamento de tecnologias. A URL pública da API é: https://Kenzie Hub.herokuapp.com. Certifique-se de consultar a documentação fornecida para mais informações sobre os endpoints e suas respectivas respostas.
+A aplicação utiliza a API Dev's Hub, que fornece os endpoints necessários para o funcionamento correto das funcionalidades de cadastro, login e gerenciamento de tecnologias. A URL pública da API é: https://Dev's Hub.herokuapp.com. Certifique-se de consultar a documentação fornecida para mais informações sobre os endpoints e suas respectivas respostas.
 
 ## Funcionalidades
 ### Registro de Usuário
@@ -17,14 +17,14 @@ A aplicação utiliza a API Kenzie Hub, que fornece os endpoints necessários pa
 - Verificação do formato adequado para o e-mail fornecido.
 - Definição de uma senha com no mínimo 8 caracteres, incluindo letras, números e ao menos um caractere especial.
 - Confirmação de senha para garantir a precisão do dado.
-- Envio do formulário através de uma requisição POST para a rota "/users" da API Kenzie Hub para cadastrar o usuário.
+- Envio do formulário através de uma requisição POST para a rota "/users" da API Dev's Hub para cadastrar o usuário.
 - Exibição de notificações de sucesso ou erro ao usuário.
 - Redirecionamento do usuário para a página de login em caso de sucesso.
 
 ### Login de Usuário
 - Criação de um formulário de login utilizando React Hook Form e Zod para realizar as validações necessárias.
 - Os campos obrigatórios são preenchidos corretamente.
-- Envio do formulário através de uma requisição POST para a rota "/sessions" da API Kenzie Hub para autenticar o usuário.
+- Envio do formulário através de uma requisição POST para a rota "/sessions" da API Dev's Hub para autenticar o usuário.
 - Exibição de notificações informando sobre o sucesso ou falha no login.
 - Armazenamento do token e das informações do usuário no armazenamento local (localStorage) para autenticação futura.
 - Redirecionamento do usuário para o painel de controle (dashboard) em caso de sucesso.
@@ -58,7 +58,7 @@ A aplicação utiliza a API Kenzie Hub, que fornece os endpoints necessários pa
 - Vite
 
 ## Contribuição
-Este projeto foi desenvolvido como parte do curso de desenvolvimento web da Kenzie Academy Brasil e, no momento, não estão sendo aceitas contribuições adicionais.
+Este projeto foi desenvolvido como parte do curso de desenvolvimento web da Dev's Academy Brasil e, no momento, não estão sendo aceitas contribuições adicionais.
 
 ## Autor
 Gustavo Manrrik
